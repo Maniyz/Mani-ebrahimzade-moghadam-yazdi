@@ -1,0 +1,105 @@
+@font-face{
+    font-family: "shabnam";
+    src: url(/fonts/Shabnam-FD.woff2) format(woff2);
+}
+*{
+    font-family: "shabnam";
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    margin: 0px 100px;
+}
+.header{
+    border: 1px solid none;
+    box-shadow: 2px 2px 16px 2px  rgba(0, 0, 0, 0.2) ;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px;
+}
+
+.logo img{
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.menu{display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    gap: 25px;
+}
+.menu p{
+    cursor: pointer;
+    margin: 0px;
+}
+.menu p:hover{
+    color: #E67E22;
+}
+.aycon{display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0px 0px;
+
+}
+.aycon svg{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    cursor: pointer;
+}
+.aycon svg:hover{
+    color: #E67E22;
+}
+.spi{
+    display: flex;
+    margin: 0px;
+}
+.boot-img img{width: 500px;
+height: 400px;
+margin: 10px 30px;
+}
+
+.type{margin-top: 80px;
+padding-left: 40px;
+padding-right: 5px;
+}
+.f-text h1{font-size: 50px;
+    font-weight: 500;
+
+}
+.s-text{margin: 50px 0px 30px;
+
+}
+button{
+    background-color: #fff;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    background-color: #E67E22;
+}
+footer{
+    display: flex;
+    border: solid 0.1px #F4F6F6;
+    background-color:  #F4F6F6;
+    
+}
+footer div{
+ padding: 0px 20px;
+ }
+footer svg{width: 80px;
+    height: 80px;
+    color: #E67E22;
+    margin: 10px 0px;
+   
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
